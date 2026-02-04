@@ -1,0 +1,25 @@
+Sistema binario
+El sistema binario esta basado en solo dos simbolos, el 0 y el 1.
+Estos pueden representar dos estados, encendido o apagado, verdadero o falso.
+Las computadoras solo entienden el sistem binario.
+Las computadoras inicialmente estaban construidas por interruptores, que podian estar en uno de dos estados,
+encendio o apagado, lo cual se puede traducir al sistema binario, 0 y 1.
+Los lenguajes de programacion son traducidos a 0s y 1s.
+
+Logica
+En logica, un enunciado puede ser una frase cualquiera pero este debe poder clasificarse como verdadero o falso.
+La veracidad condicional de un enunciado depende de las circunstancias en las que se menciona, puede ser verdadero
+o falso segun las circunstancias.
+Conjuncion = nos interesa que todos los enunciados sean verdaderos.
+Disyuncion = nos interesa que al menos uno de los enunciados de la proposicion sea verdadero.
+Negacion = invierte el valor del enunciado, si es verdadero lo cambia a falso y viceversa.
+
+Algoritmos
+Un algoritmo es una secuencia de pasos claros y sencillos para cumplir una tarea.
+En programacion, los algoritmos nos ayudan a darle pasos sencillos y logicos a la computadora para que pueda realizar
+una tarea. Un ejemplo afuera de la programacion, son las recetas para cocinar. Nos dice claramanete que se necesita,
+las cantidades y la secuencia de pasos a realizar para cocinar un platillo.
+Si sabemos cual es el problema y la solucion, los algoritmos nos ayudan a conectarlos.
+
+
+
