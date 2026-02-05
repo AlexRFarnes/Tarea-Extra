@@ -1,0 +1,45 @@
+Control de versiones
+Es un software que permite llevar el control de cambios realizados en archivos. El programa permite guardar
+el registro de todos los cambios y poder ver el estado de los archivos en determinados momentos del tiempo.
+Además, es utilizado porque permite trabajar en equipos en paralelo dónde cada uno puede estar trabjanado
+en diferentes funcionalidas o archivos y luego juntarlo con el trabajo de los demas. 
+
+GIT
+Es uno de los controladores de versiones que existen, sin embargo, es el más utilizado. 
+Funciona en Windows, Mac y Linux.
+
+Github
+Es un servicio basado en GIT que permite trabajar de manera cooperativa con otras personas y almacenar 
+los repositorios de manera remota. Esto permite que uno puede tener accesso a sus repositorios desde
+cualquier computadora que tenga instalado GIT.
+
+Los comandos principales de GIT son:
+
+git init -> inicializa un repositorio GIT para que pueda empezar a llevar el control de los cambios.
+
+git add <archivos> o git add . -> añade los archivos al staging area, estos archivos serán incluidos
+en el siguiente "snapshot".
+
+git commit -m <mensaje> -> confirma la captura (snapshot) del estado actual del repositorio: que archivos
+han sido creados, borrados, movidos o modificados y guarda estos cambios registrados.
+
+git remote add origin <url> -> vincula un repositorio local con un repositorio remoto, por ejemplo en
+Github. "origin" es un alias para la url del repositorio remoto. De esta manera no tenemos que estar
+recordando o copiando la url todo el tiempo. 
+
+git push origin <rama> -> manda los cambios locales al repositorio remoto, "origin" es el alias
+que se definió cuando se usó el comando "git remote add". La rama se usa para mandar cambios a una rama
+específica, si no se especifica GIT buscara la rama que coincida en nombre de la rama activa en local.
+
+git status -> permite ver el estado actual de nuestro projecto, por ejemplo si tenes archivos sin agregar 
+a GIT o que aún no han sido confirmados.
+
+git log -> permite ver el historial de cambios.
+
+git diff -> muestra los cambios realizados en los archivos desde el último commit.
+
+git switch -c "rama" -> crea una nueva rama y la hace la rama activa.
+
+git checkout -b "rama" -> comando similar al anterior.
+
+

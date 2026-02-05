@@ -1,0 +1,37 @@
+Conceptos basicos de la programacion
+Las variables son datos que se guardan en memoria.
+Estos datos son usados durante la ejecucion del programa y pueden ser modificados.
+Los nombres de las variables deben identificar el valor que guardan.
+
+Tipos de datos
+El tipo de dato determina que valores puede guardar esa variable y que operaciones se pueden realizar
+con esa variable.
+
+Dato númerico: este se usa para representar números. Dependiendo del lenguaje estos pueden
+estar divididos en enteros y decimales. Algunos lenguajes incluso hacen distincion entre estos dos,
+variando la precisión y el espacio en memoria necesario para representarlos.
+Los números pueden ser usados en operaciones aritméticas como suma, resta, etc. y comparativas como >, 
+<, ==, etc. 
+
+Dato lógico: el booleano, representa dos estados, verdadero o falso, encendido o apagado, si o no, 1 o 0.
+
+Caracter: representa un símbolo de un codigo, por ejemplo una letra, un número, un símbolo. Dependiendo 
+del sistema de codificación, se pueden representar mas o menos carcateres ocupando mas o menos espacio en 
+memoria. 
+
+Cadena de caracters: es un secuencia de caracteres.
+
+Estructuras de control
+Las estructuras de control permiten modificar el flujo de nuestro programa.
+Se pueden usar para tomar decisiones respecto a que parte de nuestro código se debe
+ejecutar o para repetir ciertas tareas. Los programas se ejecutan de manera secuencial, sin embargo,
+las estructuras de control nos permiten alterar este flujo.
+
+Condicionales
+Aqui encontramos los if, if..else, y switch cases. Dependiendo de si una cierta condición se cumple,
+el programa tomara un cierto camino en lugar de otro. 
+
+Repetitivas
+Estos son los bucles for, while y do-while. Permiten ejecutar una porción del código un número fijo de veces 
+como el caso del for o hasta que se cumpla una condición como el caso del while y do-while.
+ 
